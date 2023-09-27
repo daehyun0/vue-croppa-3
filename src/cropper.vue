@@ -1391,13 +1391,13 @@ export default {
 
   @for $i from 2 through $circleCount {
     .sk-circle#{$i} {
-      transform: rotate(360deg / $circleCount * ($i - 1));
+      transform: rotate(calc(360deg / $circleCount * ($i - 1)));
     }
   }
 
   @for $i from 2 through $circleCount {
     .sk-circle#{$i} .sk-circle-indicator {
-      animation-delay: -$animationDuration + $animationDuration / $circleCount * ($i - 1);
+      animation-delay: -$animationDuration + calc($animationDuration / $circleCount * ($i - 1));
     }
   }
 }

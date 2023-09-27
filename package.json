@@ -1,0 +1,22 @@
+{
+  "name": "vue-croppa-3",
+  "version": "0.0.0",
+  "private": false,
+  "main": "dist/vue-croppa.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "canvas-exif-orientation": "^0.4.0",
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "sass": "^1.68.0",
+    "stylus": "^0.60.0",
+    "vite": "^4.4.9",
+    "vue": "^3.3.4"
+  }
+}
