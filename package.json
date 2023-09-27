@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": false,
   "main": "dist/vue-croppa.js",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
